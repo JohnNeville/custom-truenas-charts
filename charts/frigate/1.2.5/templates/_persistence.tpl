@@ -54,7 +54,7 @@ persistence:
           mountPath: /dev/bus/usb
   {{- end -}}
   {{- if .Values.frigateConfig.mountM2Coral }}
-  apex_0:
+  apex0:
     enabled: true
     type: hostPath
     hostPath: /dev/apex_0
