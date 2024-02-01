@@ -53,6 +53,16 @@ persistence:
         frigate:
           mountPath: /dev/bus/usb
   {{- end -}}
+  {{- if .Values.frigateConfig.mountM2Coral }}
+  apex_0:
+    enabled: true
+    type: hostPath
+    hostPath: /dev/apex_0
+    targetSelector:
+      frigate:
+        frigate:
+          mountPath: /dev/apex_0
+  {{- end -}}
   {{- range $idx, $storage := .Values.frigateStorage.additionalStorages }}
   {{ printf "frigate-%v:" (int $idx) }}
     enabled: true

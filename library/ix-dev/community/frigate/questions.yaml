@@ -46,6 +46,15 @@ questions:
           schema:
             type: boolean
             default: false
+        - variable: mountM2Coral
+          label: Mount M.2 Coral
+          description: |
+            Mount the M.2 Coral at apex_0 to the container.</br>
+            This is required if you want to use the m.2 Coral devices</br>
+            This will mount the /dev/apex_0 to /dev/apex_0 inside the container.
+          schema:
+            type: boolean
+            default: false
         - variable: additionalEnvs
           label: Additional Environment Variables
           description: Configure additional environment variables for Frigate.

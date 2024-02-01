@@ -9,6 +9,7 @@ frigateNetwork:
 
 frigateConfig:
   mountUSBBus: true
+  mountM2Coral: true
 
 frigateStorage:
   config:
