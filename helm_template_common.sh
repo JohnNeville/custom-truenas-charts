@@ -1,5 +1,4 @@
 #!/bin/bash
-
 chart_path=library/common-test
 
 if [ ! $1 == "template" ]; then

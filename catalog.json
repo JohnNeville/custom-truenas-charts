@@ -19,9 +19,9 @@
             "title": "Frigate",
             "maintainers": [
                 {
-                    "name": "truenas",
+                    "name": "john",
                     "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
+                    "email": "johnpneville@gmail.com"
                 }
             ],
             "tags": [
